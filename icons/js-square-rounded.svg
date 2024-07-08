@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 800 800">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 0px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #355ae7;
+      }
+
+      .cls-2 {
+        font-family: FONTSPRINGDEMO-ArticoBoldRegular, 'FONTSPRING DEMO - Artico Bold';
+        font-size: 320.1px;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M610,175c8.3,0,15,6.7,15,15v420c0,8.3-6.7,15-15,15H190c-8.3,0-15-6.7-15-15V190c0-8.3,6.7-15,15-15h420M610,125H190c-35.9,0-65,29.1-65,65v420c0,35.9,29.1,65,65,65h420c35.9,0,65-29.1,65-65V190c0-35.9-29.1-65-65-65h0Z"/>
+  <text class="cls-2" transform="translate(212.5 583)"><tspan x="0" y="0">JS</tspan></text>
+</svg>

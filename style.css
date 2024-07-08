@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: Roboto;
+    background-color: #313e51;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    flex-basis: fit-content;
+
+}
+
+.menu {
+    justify-content: end;
+    padding: 2.3rem;
+    margin: 0 15px;
+    display: flex;
+}
+
+.nav-menu {
+    margin-right: 10rem;
+}
+
+.touch {
+    width: 24px;
+}
+
+.nav {
+    margin: 5px;
+}
+
+.block article {
+    color: white;
+}
+
+.text {
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+    align-content: baseline;
+
+}
+
+.header {
+    font-weight: 400;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.header span {
+    font-weight: bold;
+    display: inline-block;
+}
+
+.block .text p {
+    font-style: italic;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.card {
+    width: 75%;
+    padding: 20px;
+    background-color: #3c4d67;
+    border-radius: 15px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.card p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+.card img {
+    margin: 0 10px;
+    width: 55px;
+    padding: 10px;
+    border-radius: 14%;
+}
+
+.card:nth-child(1) img {
+    background-color: #fff0e9;
+}
+
+.card:nth-child(1) p, .card:nth-child(2) p {
+    text-transform: uppercase;
+}
+
+.card:nth-child(2) img {
+    background-color: #e1fdee;
+}
+
+.card:nth-child(3) img {
+    background-color: #f0f4ff;
+}
+
+.card:nth-child(4) img {
+    background-color: #f5e7ff;
+}
+
+/* media query */
+@media (min-width: 960px) {
+    .container {
+        width: 80%;
+        height: 100vh;
+        padding-top: 5rem;
+        flex-basis: auto;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+    .block {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .text {
+        width: 50%;
+        padding-left: 5rem;
+        display: flex;
+    }
+
+    .header {
+        text-align: start;
+    }
+
+    .text p {
+        text-align: start;
+        font-weight: 300;
+    }
+
+    .cards {
+        width: 50%;
+        margin-top: 0;
+    }
+
+    .card {
+        margin: 10px;
+    }
+}
