@@ -11,11 +11,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 720px;
 }
 
 .container {
     flex-basis: fit-content;
-
 }
 
 .menu {
@@ -124,8 +124,7 @@ body {
 @media (min-width: 960px) {
     .container {
         width: 80%;
-        height: 100vh;
-        padding-top: 5rem;
+        height: 100%;
         flex-basis: auto;
     }
 
@@ -160,5 +159,11 @@ body {
 
     .card {
         margin: 10px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .container{
+        padding-top: 5rem;
     }
 }
